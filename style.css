@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #fff;
 }
 
 .navbar__brand {
@@ -38,6 +39,7 @@ body {
 
 .nav__item:hover {
   border: 2px solid #FF6767;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
